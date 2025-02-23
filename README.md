@@ -12,7 +12,6 @@
 │
 ├── flask_sever.py        # Flask 应用主文件
 ├── AlexNet.pth           # 训练好的 AlexNet 模型权重文件
-└── requirements.txt      # 项目依赖的 Python 包
     
 采用的模型为Alexnet，数据集为cifar-10，分类类别有10种。
 用户需要先运行train.py文件来获取训练好的AlexNet模型=>生成AlexNet.pth=>运行flask_sever.py来启动flask应用=>再打开的网页中继续图片推理与预测。
